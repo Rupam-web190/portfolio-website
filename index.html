@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rupam | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rupam's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <nav>
+    <div class="logo">Rupam</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <header>
     <h1>Rupam Majumdar</h1>
     <p>Web Developer | Java Enthusiast | AI Learner</p>
@@ -18,31 +24,26 @@
 
   <section class="hero">
     <div class="hero-text">
-      <h2>Hello, I'm <span class="highlight">Rupam</span></h2>
-      <p>A passionate Web Developer</p>
-      <a href="#projects" class="btn">View My Work</a>
-      <div class="socials">
-        <a href="https://www.instagram.com/stylorupam11/?__pwa=1" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://github.com/rupam-web190" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://wa.me/916291164210" target="_blank"><i class="fab fa-whatsapp"></i></a>
-      </div>
+      <h2>Hi, I'm <span class="highlight">Rupam</span></h2>
+      <p>A 3rd-year CSE student passionate about frontend development and exploring AI.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
     </div>
     <div class="hero-img">
-      <img src="vut1.jpg" alt="Rupam's Photo">
+      <img src="your-image.jpg" alt="Rupam Image" />
     </div>
   </section>
 
-  <section class="about">
+  <section id="about" class="about">
     <h2>About Me</h2>
-    <p>I'm a 2nd-year CSE student passionate about building web apps and exploring AI. Learning Java, DSA, and frontend tech.</p>
+    <p>I’m learning Java, DSA, and frontend tech. I love creating modern web apps and exploring smart AI tools.</p>
   </section>
 
-  <section class="projects" id="projects">
+  <section id="projects" class="projects">
     <h2>Projects</h2>
     <ul>
-      <li>🌐 <strong>Personal Portfolio Website</strong></li>
-      <li>📱 <strong>Simple To-Do List App using HTML, CSS, JS</strong></li>
-      <li>🤖 <strong>Chatbot UI Design (Frontend only)</strong></li>
+      <li>🌐 Personal Portfolio Website</li>
+      <li>📱 Simple To-Do List App using HTML, CSS, JS</li>
+      <li>🤖 Chatbot UI Design (Frontend only)</li>
     </ul>
   </section>
 
@@ -60,10 +61,11 @@
       </a>
     </div>
   </section>
-  
+
   <footer>
     <p>&copy; 2025 Rupam Majumdar. All rights reserved.</p>
   </footer>
-</body>
 
+  <script src="script.js"></script>
+</body>
 </html>
