@@ -3,31 +3,64 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rupam's Portfolio</title>
+  <title>Rupam | Web Developer</title>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
   <header>
-    <h1>Rupam Majumdar</h1>
-    <p>Web Developer | Java Enthusiast | AI Learner</p>
+    <nav>
+      <h1>Rupam</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <h2>Hello, I'm Rupam</h2>
+      <p>A passionate Web Developer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </section>
   </header>
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I'm a 2nd-year CSE student passionate about building web apps and exploring AI. Learning Java, DSA, and frontend tech.</p>
+    <p>I'm a frontend developer with experience in HTML, CSS, JavaScript, and building responsive, user-friendly websites.</p>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
-    <p>No projects yet. Stay tuned!</p>
+    <div class="project-list">
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website built with HTML, CSS, and JavaScript.</p>
+        <a href="https://github.com/Rupam-web190/portfolio-website" target="_blank">View Code</a>
+      </div>
+      <!-- Add more projects here -->
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git & GitHub</li>
+      <li>Responsive Design</li>
+    </ul>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>GitHub: <a href="https://github.com/Rupam-web190" target="_blank">Rupam-web190</a></p>
     <p>Email: stylorupam11@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/Rupam-web190" target="_blank">Rupam-web190</a></p>
   </section>
 
-  <script src="script.js"></script>
+  <footer>
+    <p>&copy; 2025 Rupam. All rights reserved.</p>
+  </footer>
 </body>
 </html>
